@@ -124,7 +124,7 @@ html, body {
 
 .padding {
   padding-bottom: 32px;
-  padding-top: 16px;
+  padding-top: 32px;
   background-color: #0B0B0B;
 }
 
@@ -318,10 +318,12 @@ html, body {
 #title1 {
   color: white;  
   background-color: #1E1D1E;
+  background-image: url("../images/background/bg1.jpg");
 }
 
 #title2 {
   color: white;
+  background-image: url("../images/background/bg.jpg");
 }
 
 #title1 p,
