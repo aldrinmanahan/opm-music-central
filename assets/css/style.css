@@ -20,7 +20,6 @@ html, body {
   font-size: 12px;
   position: relative;
   background-image: url("../images/background/bg1.jpg"); 
-  background-repeat: no-repeat;
   font-weight: bold;
 }
 
