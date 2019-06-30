@@ -2,9 +2,9 @@
 var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('hgalleryImg1');
+var img = document.getElementById('galleryImg1');
 var artistNameText= document.getElementById("artistName");
-var modalImg = document.getElementById("img01");
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";
@@ -13,9 +13,9 @@ img.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img2 = document.getElementById('hgalleryImg2');
+var img2 = document.getElementById('galleryImg2');
 var artistNameText= document.getElementById("artistName");
-var modalImg = document.getElementById("img01");
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img2.onclick = function(){
     modal.style.display = "block";
@@ -24,9 +24,9 @@ img2.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img3 = document.getElementById('hgalleryImg3');
+var img3 = document.getElementById('galleryImg3');
 var artistNameText= document.getElementById("artistName");
-var modalImg = document.getElementById("img01");
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img3.onclick = function(){
     modal.style.display = "block";
@@ -35,8 +35,8 @@ img3.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img4 = document.getElementById('hgalleryImg4');
-var modalImg = document.getElementById("img01");
+var img4 = document.getElementById('galleryImg4');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img4.onclick = function(){
     modal.style.display = "block";
@@ -45,8 +45,8 @@ img4.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img5 = document.getElementById('hgalleryImg5');
-var modalImg = document.getElementById("img01");
+var img5 = document.getElementById('galleryImg5');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img5.onclick = function(){
     modal.style.display = "block";
@@ -55,8 +55,8 @@ img5.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img6 = document.getElementById('hgalleryImg6');
-var modalImg = document.getElementById("img01");
+var img6 = document.getElementById('galleryImg6');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img6.onclick = function(){
     modal.style.display = "block";
@@ -65,8 +65,8 @@ img6.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img7 = document.getElementById('hgalleryImg7');
-var modalImg = document.getElementById("img01");
+var img7 = document.getElementById('galleryImg7');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img7.onclick = function(){
     modal.style.display = "block";
@@ -75,8 +75,8 @@ img7.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img8 = document.getElementById('hgalleryImg8');
-var modalImg = document.getElementById("img01");
+var img8 = document.getElementById('galleryImg8');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img8.onclick = function(){
     modal.style.display = "block";
@@ -85,8 +85,8 @@ img8.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img9 = document.getElementById('hgalleryImg9');
-var modalImg = document.getElementById("img01");
+var img9 = document.getElementById('galleryImg9');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img9.onclick = function(){
     modal.style.display = "block";
@@ -95,8 +95,8 @@ img9.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img10 = document.getElementById('hgalleryImg10');
-var modalImg = document.getElementById("img01");
+var img10 = document.getElementById('galleryImg10');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img10.onclick = function(){
     modal.style.display = "block";
@@ -105,18 +105,18 @@ img10.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img11 = document.getElementById('hgalleryImg11');
-var modalImg = document.getElementById("img01");
+var img11 = document.getElementById('galleryImg11');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img11.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt + " is a Filipino synco-pop-punk-electro-rock band led by Eunice Jorge (vocals, piano, violin); Jazz Jorge (Bass), EJ Pichay (Drums) and Tatsi Jamnague (Guitars)";
-	artistNameText.innerHTML = this.alt;
+    artistNameText.innerHTML = this.alt;
 }
 
-var img12 = document.getElementById('hgalleryImg12');
-var modalImg = document.getElementById("img01");
+var img12 = document.getElementById('galleryImg12');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img12.onclick = function(){
     modal.style.display = "block";
@@ -125,8 +125,8 @@ img12.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img13 = document.getElementById('hgalleryImg13');
-var modalImg = document.getElementById("img01");
+var img13 = document.getElementById('galleryImg13');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img13.onclick = function(){
     modal.style.display = "block";
@@ -135,8 +135,8 @@ img13.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img14 = document.getElementById('hgalleryImg14');
-var modalImg = document.getElementById("img01");
+var img14 = document.getElementById('galleryImg14');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img14.onclick = function(){
     modal.style.display = "block";
@@ -145,8 +145,8 @@ img14.onclick = function(){
     artistNameText.innerHTML = this.alt;
 }
 
-var img15 = document.getElementById('hgalleryImg15');
-var modalImg = document.getElementById("img01");
+var img15 = document.getElementById('galleryImg15');
+var modalImg = document.getElementById("bandImg");
 var captionText = document.getElementById("caption");
 img15.onclick = function(){
     modal.style.display = "block";
@@ -165,19 +165,19 @@ span.onclick = function() {
 
 window.onscroll = function() {myFunction()};
 
-	var navbar = document.getElementById("navbar");
-	var sticky = navbar.offsetTop;
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
 
-	function myFunction() {
-	  if (window.pageYOffset >= sticky) {
-	    navbar.classList.add("sticky")
-	  } else {
-	    navbar.classList.remove("sticky");
-	  }
-	}
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
 
 
 function Sound(surl) {
-	document.getElementById("galleryImg1").innerHTML=
-	"<iframe src=\""+surl+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+    document.getElementById("bandGalleryImg").innerHTML=
+    "<iframe src=\""+surl+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
 }

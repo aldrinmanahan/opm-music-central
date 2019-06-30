@@ -31,38 +31,30 @@
 <body>
 
 <!-- NAVIGATION -->
-<nav id="homenav" class="navbar navbar-expand-md navbar-inverse sticky-top wow fadeIn">
-	<div class="container-fluid">
-		<a class="navbar-brand-right" href="index.html"><img src="assets/images/logo/OMCnav.png"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarCollapse">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav navbar-center">
-				<li class="nav-item">
-					<a class="nav-link" href="gallery.html">GALLERY</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="gig.html">UPCOMING GIGS</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="featured.html">FEATURED</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="promos.html">PROMOS</a>
-				</li>
-			</ul>
-		</div>
-</div>
+<nav class="navbar navbar-expand-md navbar-inverse sticky-top wow fadeIn">
+	<a class="navbar-brand-right" href="index.html"><img src="assets/images/logo/OMCnav.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarCollapse">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav navbar-center">
+			<li class="nav-item">
+				<a class="nav-link" href="gallery.html">GALLERY</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="gig.html">UPCOMING GIGS</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="featured.html">FEATURED</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="promos.html">PROMOS</a>
+			</li>
+		</ul>
+	</div>
 </nav>
 
-<!-- Jumbotron -->
-<div class="jumbotron wow fadeInDown text-left">
-	<h3>GALLERY</h3>
-</div>
-
 <!-- Image Slider -->
-
 <div id="slides" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner wow fadeIn" data-wow-delay="0.5s">
 		<div class="carousel-item active wow fadeIn">
@@ -91,87 +83,130 @@
 	</a>
 </div>
 
+<!-- Title Jumbotron -->
+<div class="container-fluid" id="jumbotron">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-left">BAND GALLERY</h3>
+		</div>
+	</div>	
+</div>
+
 <!-- Gallery Section -->
+<section class="container-fluid" id="galleryPage"> 
 
-<div class="container-fluid" id="gallery"> 
-<!-- Gallery First Row -->
-<div class="row" id="gallery1stSec">
-	<div class="col-xs-12 col-sm-8 col-md-4">		
-		<img id="galleryImg5" src="assets/images/gallery/eheads.jpg" onmouseover="Sound('assets/audio/gallery/ely.mp3')" onmouseout="Sound('')" alt="Ely Buendia">
+	<!-- Title -->
+	<div class="container-fluid" id="title">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>MAINSTREAM OPM</h2>
+			</div>
+		</div>	
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-8 col-md-4">		
-		<img id="galleryImg6" src="assets/images/gallery/jay.jpg" onmouseover="Sound('assets/audio/gallery/jay.mp3')" onmouseout="Sound('')" alt="Kamikazee">
+	<div class="row" id="gallery1stSec">
+		<div class="col-xs-12 col-sm-8 col-md-4">		
+			<img id="bandGalleryImg" src="assets/images/gallery/eheads.jpg" onmouseover="Sound('assets/audio/gallery/ely.mp3')" onmouseout="Sound('')" alt="Ely Buendia">
+			<div class="text">Ely Buendia</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-4">		
+			<img id="bandGalleryImg" src="assets/images/gallery/jay.jpg" onmouseover="Sound('assets/audio/gallery/jay.mp3')" onmouseout="Sound('')" alt="Kamikazee">
+			<div class="text">Kamikazee</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-4">		
+			<img id="bandGalleryImg" src="assets/images/gallery/franco.jpg" onmouseover="Sound('assets/audio/gallery/franco.mp3')" onmouseout="Sound('')" alt="Franco">
+			<div class="text">Franco</div>
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-8 col-md-4">		
-		<img id="galleryImg7" src="assets/images/gallery/franco.jpg" onmouseover="Sound('assets/audio/gallery/franco.mp3')" onmouseout="Sound('')" alt="Franco">
-	</div>
-</div>
-<!-- Gallery Second Row -->
-<div class="row"  id="gallery2ndSec">
-	<div class="col-xs-9 col-sm-6 col-md-3">	
-		<img id="galleryImg1" src="assets/images/gallery/mayo.jpg" onmouseover="Sound('assets/audio/gallery/monty.mp3')" onmouseout="Sound('')" alt="Mayonnaise">
-	</div>	
-	<div class="col-xs-9 col-sm-6 col-md-3">	
-		<img id="galleryImg2" src="assets/images/gallery/december.jpg" onmouseover="Sound('assets/audio/gallery/zel.mp3')" onmouseout="Sound('')" alt="December Avenue">
-	</div>
-	<div class="col-xs-9 col-sm-6 col-md-3">	
-		<img id="galleryImg3" src="assets/images/gallery/udub.jpg" onmouseover="Sound('assets/audio/gallery/gab.mp3')" onmouseout="Sound('')" alt="Urbandub" data-gallery="example-gallery">
-	</div>
-	<div class="col-xs-9 col-sm-6 col-md-3">	
-		<img id="galleryImg4" src="assets/images/gallery/unique.jpg" onmouseover="Sound('assets/audio/gallery/unique.mp3')" onmouseout="Sound('')" alt="Unique" data-gallery="example-gallery">
-	</div>
-</div>
-<!-- Gallery Third Row -->
-<div class="row" id="gallery3rdSec">
-	<div class="col-xs-12 col-sm-8 col-md-4">	
-		<img id="galleryImg5" src="assets/images/gallery/ben.jpg" onmouseover="Sound('assets/audio/gallery/ben.mp3')" onmouseout="Sound('')" alt="Ben&Ben">
-	</div>
-	<div class="col-xs-12 col-sm-8 col-md-4">	
-		<img id="galleryImg6" src="assets/images/gallery/ivos.jpg" onmouseover="Sound('assets/audio/gallery/ivos.mp3')" onmouseout="Sound('')" alt="IV Of Spades">
-	</div>
-	<div class="col-xs-12 col-sm-8 col-md-4">	
-		<img id="galleryImg7" src="assets/images/gallery/sud.jpg" onmouseover="Sound('assets/audio/gallery/sud.mp3')" onmouseout="Sound('')" alt="Sud">
-	</div>
-</div>
-<!-- Gallery Fourth Row -->
-<div class="row"  id="gallery4thSec">
-	<div class="col-xs-9 col-sm-6 col-md-3">	
-		<img id="galleryImg1" src="assets/images/gallery/moonstar88.jpg" onmouseover="Sound('assets/audio/gallery/maysh.mp3')" onmouseout="Sound('')" alt="Moonstar88">
-	</div>	
-	<div class="col-xs-9 col-sm-6 col-md-3">	
-		<img id="galleryImg2" src="assets/images/gallery/udd.jpg" onmouseover="Sound('assets/audio/gallery/armi.mp3')" onmouseout="Sound('')" alt="Up Dharma Down">
-	</div>
-	<div class="col-xs-9 col-sm-6 col-md-3">	
-		<img id="galleryImg3" src="assets/images/gallery/itchyworms.jpg" onmouseover="Sound('assets/audio/gallery/jugs.mp3')" onmouseout="Sound('')" alt="Itchyworms" data-gallery="example-gallery">
-	</div>
-	<div class="col-xs-9 col-sm-6 col-md-3">	
-		<img id="galleryImg4" src="assets/images/gallery/johnroa.jpg" onmouseover="Sound('assets/audio/gallery/jroa.mp3')" onmouseout="Sound('')" alt="John Roa" data-gallery="example-gallery">
-	</div>
-</div>
-<!-- Gallery Fifth Row -->
-<div class="row" id="gallery5thSec">
-	<div class="col-xs-12 col-sm-8 col-md-4">		
-		<img id="galleryImg5" src="assets/images/gallery/clara.jpg" onmouseover="Sound('assets/audio/gallery/clara.mp3')" onmouseout="Sound('')" alt="Clara Benin">
-	</div>
-	<div class="col-xs-12 col-sm-8 col-md-4">		
-		<img id="galleryImg6" src="assets/images/gallery/reese.jpg" onmouseover="Sound('assets/audio/gallery/reese.mp3')" onmouseout="Sound('')" alt="Reese Lansangan">
-	</div>
-	<div class="col-xs-12 col-sm-8 col-md-4">	
-		<img id="galleryImg7" src="assets/images/gallery/hale.jpg" onmouseover="Sound('assets/audio/gallery/champ.mp3')" onmouseout="Sound('')" alt="Hale">
-	</div>
-</div>
 
-</div>
-<!-- <hr class="my-4"> -->
+	<div class="row"  id="gallery2ndSec">
+		<div class="col-xs-9 col-sm-6 col-md-3">	
+			<img id="bandGalleryImg" src="assets/images/gallery/mayo.jpg" onmouseover="Sound('assets/audio/gallery/monty.mp3')" onmouseout="Sound('')" alt="Mayonnaise">
+			<div class="text">Mayonnaise</div>
+		</div>	
+		<div class="col-xs-9 col-sm-6 col-md-3">	
+			<img id="bandGalleryImg" src="assets/images/gallery/december.jpg" onmouseover="Sound('assets/audio/gallery/zel.mp3')" onmouseout="Sound('')" alt="December Avenue">
+			<div class="text">December Avenue</div>
+		</div>
+		<div class="col-xs-9 col-sm-6 col-md-3">	
+			<img id="bandGalleryImg" src="assets/images/gallery/rb.jpg" onmouseover="Sound('assets/audio/gallery/rb.mp3')" onmouseout="Sound('')" alt="Rico Blanco">
+			<div class="text">Rico Blanco</div>
+		</div>
+		<div class="col-xs-9 col-sm-6 col-md-3">	
+			<img id="bandGalleryImg" src="assets/images/gallery/unique.jpg" onmouseover="Sound('assets/audio/gallery/unique.mp3')" onmouseout="Sound('')" alt="Unique">
+			<div class="text">Unique Salonga</div>
+		</div>
+	</div>
+
+	<!-- Title -->
+	<div class="container-fluid" id="title">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>INDIE OPM</h2>
+			</div>
+		</div>	
+		</div>
+	</div>
+	<div class="row" id="gallery3rdSec">
+		<div class="col-xs-12 col-sm-8 col-md-4">	
+			<img id="bandGalleryImg" src="assets/images/gallery/ivos.jpg" onmouseover="Sound('assets/audio/gallery/ivos.mp3')" onmouseout="Sound('')" alt="IV Of Spades">
+			<div class="text">IV Of Spades</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-4">	
+			<img id="bandGalleryImg" src="assets/images/gallery/ben.jpg" onmouseover="Sound('assets/audio/gallery/ben.mp3')" onmouseout="Sound('')" alt="Ben&Ben">
+			<div class="text">Ben&Ben</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-4">	
+			<img id="bandGalleryImg" src="assets/images/gallery/moonstar88.jpg" onmouseover="Sound('assets/audio/gallery/maysh.mp3')" onmouseout="Sound('')" alt="Moonstar88">
+			<div class="text">Moonstar88</div>
+		</div>
+	</div>
+
+	<div class="row"  id="gallery4thSec">
+		<div class="col-xs-9 col-sm-6 col-md-3">	
+			<img id="bandGalleryImg" src="assets/images/gallery/juankarlos.jpg" onmouseover="Sound('assets/audio/gallery/jkarlos.mp3')" onmouseout="Sound('')" alt="Juan Karlos">
+			<div class="text">Juan Karlos</div>
+		</div>	
+		<div class="col-xs-9 col-sm-6 col-md-3">	
+			<img id="bandGalleryImg" src="assets/images/gallery/spongecola.jpg" onmouseover="Sound('assets/audio/gallery/yael.mp3')" onmouseout="Sound('')" alt="Sponge Cola">
+			<div class="text">Sponge Cola</div>
+		</div>
+		<div class="col-xs-9 col-sm-6 col-md-3">	
+			<img id="bandGalleryImg" src="assets/images/gallery/thisband.jpg" onmouseover="Sound('assets/audio/gallery/thisband.mp3')" onmouseout="Sound('')" alt="This Band">
+			<div class="text">This Band</div>
+		</div>
+		<div class="col-xs-9 col-sm-6 col-md-3">	
+			<img id="bandGalleryImg" src="assets/images/gallery/udd.jpg" onmouseover="Sound('assets/audio/gallery/armi.mp3')" onmouseout="Sound('')" alt="Up Dharma Down">
+			<div class="text">Up Dharma Down</div>
+		</div>
+	</div>
+
+	<div class="row" id="gallery5thSec">
+		<div class="col-xs-12 col-sm-8 col-md-4">		
+			<img id="bandGalleryImg" src="assets/images/gallery/ibelong.jpg" onmouseover="Sound('assets/audio/gallery/ibelong.mp3')" onmouseout="Sound('')" alt="I Belong to the Zoo">
+			<div class="text">I Belong to the Zoo</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-4">		
+			<img id="bandGalleryImg" src="assets/images/gallery/clara.jpg" onmouseover="Sound('assets/audio/gallery/clara.mp3')" onmouseout="Sound('')" alt="Clara Benin">
+			<div class="text">Clara Benin</div>
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-4">	
+			<img id="bandGalleryImg" src="assets/images/gallery/reese.jpg" onmouseover="Sound('assets/audio/gallery/reese.mp3')" onmouseout="Sound('')" alt="Reese Lansangan">
+			<div class="text">Reese Lansangan</div>
+		</div>
+	</div>
+</section>
 
 <!-- Footer -->
 <footer>
 <div class="container-fluid" id="footer">
 <div class="row text-center">
 	<div class="col-md-3">
-		<hr class="light">
+		<hr>
 		<h5 class="footer-title">DISCLAIMER:</h5>
-		<hr class="light">
+		<hr>
 		<p class="footer-text text-justify">No copyright infringement is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer unless otherwise stated. The credit goes to the owner. </p>
 	</div>
 	<div class="col-md-6">
@@ -180,13 +215,13 @@
 		<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
 		<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
 		<a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-		<hr class="light">
+		<hr>
 		<p class="footer-alt">[ OPM ] Music Central | 2018 </p>
 		</div>
 	</div>
 	<div class="col-md-3">
 	<a href="index.html"><img src="assets/images/logo/OMCnav.png"></a>
-		<hr class="light">
+		<hr>
 		<div class="vertical-menu">
 			<a href="gallery.html">GALLERY</a>
 			<a href="gig.html">UPCOMING GIGS</a>
@@ -195,8 +230,8 @@
 		</div>
 	</div>	
 	<div class="col-12">
-		<hr class="light-100">
-		<h6>&copy; 2018 OPM Central. All Rights Reserved. Designed by Aldrin Manahan.</h6>
+		<hr>
+		<p class="footer-copyright">&copy; 2018 OPM Central. All Rights Reserved. Designed by Aldrin Manahan.</p>
 	</div>
 </div>
 </div>

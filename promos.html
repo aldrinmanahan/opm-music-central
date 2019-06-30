@@ -36,41 +36,34 @@
 
 
 <!-- NAVIGATION -->
-<nav id="homenav" class="navbar navbar-expand-md navbar-inverse sticky-top wow fadeIn">
-	<div class="container-fluid">
-		<a class="navbar-brand-right" href="index.html"><img src="assets/images/logo/OMCnav.png"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarCollapse">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav navbar-center">
-				<li class="nav-item">
-					<a class="nav-link" href="gallery.html">GALLERY</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="gig.html">UPCOMING GIGS</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="featured.html">FEATURED</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="promos.html">PROMOS</a>
-				</li>
-			</ul>
-		</div>
-</div>
+<nav class="navbar navbar-expand-md navbar-inverse sticky-top wow fadeIn">
+	<a class="navbar-brand-right" href="index.html"><img src="assets/images/logo/OMCnav.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarCollapse">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="navbar-nav navbar-center">
+			<li class="nav-item">
+				<a class="nav-link" href="gallery.html">GALLERY</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="gig.html">UPCOMING GIGS</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="featured.html">FEATURED</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="promos.html">PROMOS</a>
+			</li>
+		</ul>
+	</div>
 </nav>
 
-<!-- Jumbotron -->
-<div class="jumbotron wow fadeInDown text-left">
-	<h3>PROMOS</h3>
-</div>
 <!-- Image Slider -->
-
-<div id="slides" class="carousel slide" data-ride="carousel">
+<!-- <div id="slides" class="carousel slide" data-ride="carousel">
 	<div class="carousel-inner wow fadeIn" data-wow-delay="0.5s">
 		<div class="carousel-item active wow fadeIn">
-			<img src="assets/images/promos/pne1.jpg">
+			<img src="assets/images/promos/rbivos1.jpg">
 		</div>
 		<div class="carousel-item wow fadeIn">
 			<img src="assets/images/promos/pne2.jpg">
@@ -93,90 +86,139 @@
 		<span class="carousel-control-next-icon" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 	</a>
+</div> -->
+
+<!-- Banner Image -->
+<div class="img-responsive wow fadeIn">
+	<img class="banner" src="assets/images/promos/banner-promos.jpg">
+</div>
+
+<!-- Title Jumbotron -->
+<div class="container-fluid" id="jumbotron">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-left">PROMOS</h3>
+		</div>
+	</div>	
 </div>
 
 <!-- Two Column Section -->
-<div class="container-fluid animated fadeIn" id="homepage">
-<div class="row padding">
-	<div class="col-lg-6">
-	<div class="img-fluid animated fadeIn">
-		<img class="banner-homepage" src="assets/images/promos/soma.jpg">
+<section class="container-fluid animated fadeIn" id="promos">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="img-fluid animated fadeIn">
+				<img class="banner-homepage" src="assets/images/promos/soma.jpg">
+			</div>
+			<p class="promos-alt"> WIN A PAIR OF PASSES TO SOMA SESSIONS FEAT. HALE! </p>
+			<p class="promos-date">[ OPM ] Music Central | 4 JUNE </p>
+			<p class="promos-subject">Fill-up this form for a chance to win: </p>
+			<form>
+		  	<div class="form-row" id="form">
+			    <div class="form-group col-md-12">
+			      <label for="inputText" id="label">Full Name:</label>
+			      <input type="text" class="form-control" id="inputText" placeholder="Full Name">
+			    </div>
+		  	</div>
+	  		<div class="form-row">
+	  			<div class="form-group col-md-8">
+			     	<label for="inputEmail" id="label">Email Address:</label>
+			      	<input type="email" id="inputEmail" class="form-control" id="inputEmail" placeholder="Email Address">
+			    </div>
+		    	<div class="form-group col-md-4">
+			        <label for="inputAge" id="label">Age:</label>
+			    	<input type="number" class="form-control" id="inputAge" min="0">
+		    	</div>
+	    	</div>
+		    <div class="form-row">
+				<div class="form-group col-md-12">
+			  		<label for="inputComment" id="label">Why do you deserve to win #SOMAxHale tickets: </label>
+			  		<textarea class="form-control" rows="3" id="comment"></textarea>
+		  			<br>
+		  			<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+			</form>
+		</div>
+
+		<div class="col-md-4">
+			<div class="img-fluid animated fadeIn">
+				<img class="banner-homepage" src="assets/images/promos/tower.jpg">
+			</div>
+			<p class="promos-alt"> WIN (2) TICKETS TO WATCH PAROKYA NI EDGAR LIVE! </p>
+			<p class="promos-date">[ OPM ] Music Central | 13 JUNE </p>
+			<p class="promos-subject">Fill-up this form for a chance to win: </p>
+			<form>
+		  	<div class="form-row" id="form">
+			    <div class="form-group col-md-12">
+			      <label for="inputText" id="label">Full Name:</label>
+			      <input type="text" class="form-control" id="inputText" placeholder="Full Name">
+			    </div>
+		  	</div>
+	  		<div class="form-row">
+	  			<div class="form-group col-md-8">
+			     	<label for="inputEmail" id="label">Email Address:</label>
+			      	<input type="email" id="inputEmail" class="form-control" id="inputEmail" placeholder="Email Address">
+			    </div>
+		    	<div class="form-group col-md-4">
+			        <label for="inputAge" id="label">Age:</label>
+			    	<input type="number" class="form-control" id="inputAge" min="0">
+		    	</div>
+	    	</div>
+		    <div class="form-row">
+				<div class="form-group col-md-12">
+			  		<label for="inputComment" id="label">Why do you deserve to win #TowerSessions feat. Parokya Ni Edgar tickets: </label>
+			  		<textarea class="form-control" rows="3" id="comment"></textarea>
+		  			<br>
+		  			<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+			</form>
+		</div>
+		<div class="col-md-4">
+			<div class="img-fluid animated fadeIn">
+				<img class="banner-homepage" src="assets/images/promos/rbivos.jpg">
+			</div>
+			<p class="promos-alt"> WIN (3) TICKETS TO WATCH IVOS x Rico Blanco LIVE! </p>
+			<p class="promos-date">[ OPM ] Music Central | 3 AUG </p>
+			<p class="promos-subject">Fill-up this form for a chance to win: </p>
+			<form>
+		  	<div class="form-row" id="form">
+			    <div class="form-group col-md-12">
+			      <label for="inputText" id="label">Full Name:</label>
+			      <input type="text" class="form-control" id="inputText" placeholder="Full Name">
+			    </div>
+		  	</div>
+	  		<div class="form-row">
+	  			<div class="form-group col-md-8">
+			     	<label for="inputEmail" id="label">Email Address:</label>
+			      	<input type="email" id="inputEmail" class="form-control" id="inputEmail" placeholder="Email Address">
+			    </div>
+		    	<div class="form-group col-md-4">
+			        <label for="inputAge" id="label">Age:</label>
+			    	<input type="number" class="form-control" id="inputAge" min="0">
+		    	</div>
+	    	</div>
+		    <div class="form-row">
+				<div class="form-group col-md-12">
+			  		<label for="inputComment" id="label">Why do you deserve to win IV OF SPADES x Rico Blanco concert tickets: </label>
+			  		<textarea class="form-control" rows="3" id="comment"></textarea>
+		  			<br>
+		  			<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+			</form>
+		</div>
 	</div>
-		<p class="promos-alt"> WIN A PAIR OF PASSES TO SOMA SESSIONS FEAT. HALE! </p>
-		<p class="promos-date">[ OPM ] Music Central | 4 JUNE </p>
-		<p class="lead">Fill-up this form for a chance to win: </p>
-	<form>
-  	<div class="form-row" id="form">
-    <div class="form-group col-md-12">
-      <label for="inputText" id="label">Full Name:</label>
-      <input type="text" class="form-control" id="inputText" placeholder="Full Name">
-    </div>
-  	</div>
-  	<div class="form-row">
-  	<div class="form-group col-md-8">
-     	<label for="inputEmail" id="label">Email Address:</label>
-      	<input type="email" id="inputEmail" class="form-control" id="inputEmail" placeholder="Email Address">
-    </div>
-    <div class="form-group col-md-4">
-        <label for="inputAge" id="label">Age:</label>
-    	<input type="number" class="form-control" id="inputAge" min="0">
-    </div>
-    </div>
-    <div class="form-row">
-	<div class="form-group col-md-12">
-  		<label for="inputComment" id="label">Why do you deserve to win #SOMAxHale tickets: </label>
-  		<textarea class="form-control" rows="3" id="comment"></textarea>
-  		<br>
-  		<button type="submit" class="btn btn-primary">Submit</button>
-	</div>
-	</div>
-	</form>
-	</div>
-	<div class="col-lg-6">
-	<div class="img-fluid animated fadeIn">
-		<img class="banner-homepage" src="assets/images/promos/tower.jpg">
-	</div>
-		<p class="promos-alt"> WIN A PAIR OF TICKETS TO WATCH PAROKYA NI EDGAR LIVE! </p>
-		<p class="promos-date">[ OPM ] Music Central | 13 JUNE </p>
-		<p class="lead">Fill-up this form for a chance to win: </p>
-	<form>
-  	<div class="form-row">
-    <div class="form-group col-md-12">
-      <label for="inputText" id="label">Full Name:</label>
-      <input type="text" class="form-control" id="inputText" placeholder="Full Name">
-    </div>
-  	</div>
-  	<div class="form-row">
-  	<div class="form-group col-md-8">
-     	<label for="inputEmail" id="label">Email Address:</label>
-      	<input type="email" id="inputEmail" class="form-control" id="inputEmail" placeholder="Email Address">
-    </div>
-    <div class="form-group col-md-4">
-        <label for="inputAge" id="label">Age:</label>
-    	<input type="number" class="form-control" id="inputAge" min="0">
-    </div>
-    </div>
-    <div class="form-row">
-	<div class="form-group col-md-12">
-  		<label for="inputComment" id="label">Why do you deserve to win #TowerSessions feat. Parokya Ni Edgar tickets: </label>
-  		<textarea class="form-control" rows="3" id="comment"></textarea>
-  		<br>
-  		<button type="submit" class="btn btn-primary">Submit</button>
-	</div>
-	</div>
-	</form>
-	</div>
-</div>
-</div>
+</section>
 
 <!-- Footer -->
 <footer>
 <div class="container-fluid" id="footer">
 <div class="row text-center">
 	<div class="col-md-3">
-		<hr class="light">
+		<hr>
 		<h5 class="footer-title">DISCLAIMER:</h5>
-		<hr class="light">
+		<hr>
 		<p class="footer-text text-justify">No copyright infringement is intended. This is only for educational purposes and not for profit. Some asset/s used are not owned by the developer unless otherwise stated. The credit goes to the owner. </p>
 	</div>
 	<div class="col-md-6">
@@ -185,13 +227,13 @@
 		<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
 		<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
 		<a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-		<hr class="light">
+		<hr>
 		<p class="footer-alt">[ OPM ] Music Central | 2018 </p>
 		</div>
 	</div>
 	<div class="col-md-3">
 	<a href="index.html"><img src="assets/images/logo/OMCnav.png"></a>
-		<hr class="light">
+		<hr>
 		<div class="vertical-menu">
 			<a href="gallery.html">GALLERY</a>
 			<a href="gig.html">UPCOMING GIGS</a>
@@ -200,8 +242,8 @@
 		</div>
 	</div>	
 	<div class="col-12">
-		<hr class="light-100">
-		<h6>&copy; 2018 OPM Central. All Rights Reserved. Designed by Aldrin Manahan.</h6>
+		<hr>
+		<p class="footer-copyright">&copy; 2018 OPM Central. All Rights Reserved. Designed by Aldrin Manahan.</p>
 	</div>
 </div>
 </div>
