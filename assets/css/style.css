@@ -71,7 +71,7 @@ footer a {
 	color: #EAEAED;
 }
 .footer-copyright {
-	font-size: 11px;
+	font-size: 13px;
  	font-family: 'Hind Siliguri', sans-serif;
 }
 .footer-title {
@@ -255,6 +255,7 @@ footer h6 {
   height: 150px;
 }
 #artistName {
+  font-family: 'Contrail One', cursive;
   font-size: 35px;
   letter-spacing: .5px;
   text-align: center;
@@ -299,7 +300,6 @@ footer h6 {
   height: 100%;
 }*/
 .carousel-inner > .carousel-item img {
-
   width:100vw;
   height:auto;
 }
@@ -307,11 +307,12 @@ footer h6 {
 /*Gallery Page*/
 #bandGalleryImg {
   cursor: pointer;
+  font-size: 13px;
   max-width: 100%;
   max-height: 100%;
   overflow: hidden;
   filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(90%);
 }
 #bandGalleryImg:hover {
   max-width: 100%;
@@ -653,13 +654,13 @@ img:hover + .text {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...} 
+@media only screen and (min-width: 600px) { ... } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)
-and (orientation: portrait) {...}
+and (orientation: portrait) { ... }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) { ... } 
