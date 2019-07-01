@@ -13,9 +13,6 @@ body {
   color: #222;
   overflow-x: hidden;
 }	
-iframe {
-  display: block;
-}
 
 /*Navbar*/
 .navbar {

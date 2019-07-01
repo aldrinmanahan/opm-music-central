@@ -176,8 +176,8 @@ window.onscroll = function() {myFunction()};
       }
     }
 
-
 function Sound(surl) {
     document.getElementById("bandGalleryImg").innerHTML=
-    "<iframe src=\""+surl+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+    "<audio src=\""+surl+"\" hidden=\"true\" autoplay=\"true\" loop=\"false\" />";
 }
+
