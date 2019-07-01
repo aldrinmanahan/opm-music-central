@@ -28,11 +28,26 @@
 	<!-- fav icon -->
 	<link rel="icon" type="image/gif/png" href="assets/images/logo/favicon-32x32.png">
 
+	<!-- jQuery -->
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 <body>
 
 <!-- AUDIO -->
-<iframe src="assets/audio/featured.mp3" allow="autoplay" hidden></iframe>
+<!-- <iframe src="assets/audio/featured.mp3" allow="autoplay" hidden></iframe> -->
+
+<audio id="featuredAudio" src="assets/audio/featured.mp3"></audio>
+
+<script type="text/javascript">
+$(document).ready(function() {
+var featuredAudio = document.getElementById('featuredAudio');
+$( "body" ).one( "touchstart", function() {
+  console.log( "This will be displayed only once." );
+  featuredAudio.play(); 
+});
+});
+</script>
 
 <!-- NAVIGATION -->
 <nav class="navbar navbar-expand-md navbar-inverse sticky-top wow fadeIn">
