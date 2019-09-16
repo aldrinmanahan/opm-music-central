@@ -40,6 +40,9 @@ body {
 .navbar-center li a {
   color: white;
 }
+.navbar img {
+  padding-left: 15px;
+}
 
 /*Footer*/
 footer {
